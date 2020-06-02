@@ -3,6 +3,10 @@ Stomping Ground - a personal lab that I will expand upon to meet my exploratory 
 
 I needed a way to quickly add boxes to an ever expanding home 'virtualizes' lab to meet my needs. This is just a quick and dirty start that I will add too.
 
+Pre-requisites: You will need to install Vagrant. If you do not already have it installed you can download it from Hashicorp. Once you have your folder structure in place run: vagrant init
+
+This will place a default Vagrantfile in that folder, replace that file with the one here then run: vagrant up
+
 Things to note:
 1. I do not use Vagrant's default key so I encourage you to generate your own keys and place them in the same directory where you are running Vagrant. 
 
