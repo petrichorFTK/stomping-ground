@@ -1,15 +1,11 @@
 # stompingground
 Stomping Ground - a personal lab that I will expand upon to meet my exploratory needs!
 
-I needed a way to quickly add boxes to an ever expanding home 'virtualizes' lab to meet my needs. This is just a quick and dirty start that I will add too.
+This is my lab. There are many like it, but this one is mine.
+My lab is my best friend. It is my life. I must grow it as I must grow my professional life.
+Without me, my lab is useless. Without my lab, I am useless.
+Wait what?? That's not true not at all.
 
-Pre-requisites: You will need to install Vagrant. If you do not already have it installed you can download it from Hashicorp. Once you have your folder structure in place run: vagrant init
+This setup will get you 51.7% of the way through the Defensive [Origins/APT06202001](https://github.com/DefensiveOrigins/APT06202001) setup for the "Applied Purple Teaming" class. There is still some manual setup that needs to take place but it gets you all the boxes with the necessary downloads on them. I will write a step-by-step guide on how to finish the 49.7% that's left soon.
 
-This will place a default Vagrantfile in that folder, replace that file with the one here then run: vagrant up
-
-Things to note:
-1. I do not use Vagrant's default key so I encourage you to generate your own keys and place them in the same directory where you are running Vagrant. 
-
-2. This does not take care of any networking. Vagrant needs the first interface of everybox to be NAT'd so it can talk to it.
-
-3. All these boxes come from Vagrant Cloud and there is ZERO checking for badness on them. Do not use these on production networks. I can testify that I did not put anything malicious on the boxes I use in the Vagrantfile but I also did nothing to harden them :)
+In order to use this Vagrantfile you must have downloaded and installed [Vagrant](https://www.vagrantup.com/downloads.html) from HashiCorp. Once you run > vagrant init a default Vagrantfile will be placed in the directory replace it with this one and run > vagrant validate just to be sure followed by > vagrant up
