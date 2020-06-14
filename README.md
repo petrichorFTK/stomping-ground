@@ -1,4 +1,4 @@
-# stompingground
+# Stomping Ground
 Stomping Ground - a personal lab that I will expand upon to meet my exploratory needs!
 
 This is my lab. There are many like it, but this one is mine.
